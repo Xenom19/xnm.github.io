@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;400;500;700&family=Roboto:wght@200;300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+body {
+    background: #242B33;
+}
+
+
+/* HEADER */
+
+.header {
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(image/rassvet.jpg) no-repeat top center / cover;
+}
+
+.nav {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo-up {
+    width: 134px;
+    height: 37px;
+    font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.logo-und {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    font-family: 'Raleway' , sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.list {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    font-family: 'Raleway' , sans-serif;
+
+}
+
+.list:hover, .last-list:hover, .numb:hover, .map:hover, .locomap:hover {
+    color: #D4C17F;
+    transition: 0.3s;
+}
+
+
+.last-list {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    font-family: 'Raleway' , sans-serif;
+
+}
+
+
+.menu {
+    color: #fff;
+    
+}
+
+.about {
+    margin: 0 auto;
+    width: 582px;
+    height: 470px;
+    margin-top: 200px;
+}
+
+.zagolovok {
+    margin: 0 auto;
+    text-align:center;
+    font-family: 'Playfair Display' , sans-serif;
+    color: #D4C17F;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+
+
+}
+
+.mouse {
+    margin-top: 100px;
+    margin-left: 292px;
+}
+
+.numb-loco {
+    display: flex;
+    justify-content:space-between;
+    margin-top:179px;
+}
+
+.numb {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 300;
+    margin-right: 53px;
+}
+
+.locomap {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 300;
+    margin-right: 53px;
+}
+
+.und-text {
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    display: flex;
+}
+
+#map {
+    background-repeat: no-repeat;
+    margin-right: 18px;
+    
+}
+
+#tel {
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+/* SECTION */
+
+.section {
+    background: #242B33;
+    width: 100%;
+    height: 1146px;
+    margin: 0 auto;
+}
+
+.blocks {
+    display: flex;
+    margin-top: 194px;
+    margin-left: -70px;
+}
+
+.icon-1 {
+    margin-left: 214px;
+}
+.icon-2 {
+    margin-left: 153px;
+}
+.icon-3 {
+    margin-left: 124px;
+}
+.icon-4 {
+    margin-top: 7px;
+    margin-left: 119px;
+    width: 80px;
+    height: 80px;
+}
+
+#velo {
+    margin-top: 46px;
+    margin-left: 100px;
+}
+
+.block-1,.block-2,.block-3,.block-4{
+    transition: 0.3s;
+}
+
+.block-1:hover , .block-2:hover , .block-3:hover ,.block-4:hover  {
+    opacity: 0.6;
+}
+
+#derevo {
+    margin-left: 158px;
+}
+
+#fontan {
+    margin-left: 95px;
+}
+
+#dom {
+    margin-left: 125px;
+}
+
+.icon-text {
+    margin-top: 53px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.two {
+    margin-top: -50px;
+    margin-right: -200px;
+}
+/* LIBRARY */
+
+.library {
+    margin-top: 40px;
+}
+
+.lib-zag {
+    font-size: 36px;
+    font-family: 'Playfair Display' , sans-serif;
+    color: #D4C17F;
+}
+
+.f:hover {
+    border-radius: 20%;
+    border: solid #d4c17f;
+}
+
+.fotos {
+    margin-top: 100px;
+}
+
+.f {
+    position: absolute;
+    transition: 0.4s;
+    border-radius: 0%;
+    border: solid #d4c17f00;
+    cursor: crosshair;
+}
+
+
+.text-in-foto:hover {
+    color: #D4C17F;
+}
+
+.text-in-foto {
+    position: absolute;
+    margin-top: 248px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+#ph2 {
+    margin-left: 565px;
+}
+
+#ph3 {
+    margin-top: 350px;
+}
+
+#ph4 {
+    margin-left: 565px;
+    margin-top: 350px;
+}
+
+#pht2 {
+    margin-left: 615px;
+}
+#pht3 {
+    margin-top: 598px;
+}
+#pht4 {
+    margin-top: 598px;
+    margin-left: 615px;
+}
+
+
+/* MAIN */
+
+
+.main{
+    width: 100%;
+    height: 560px;   
+    background: url(image/Rectangle=blo.jpg) no-repeat top center / cover;
+    
+}
+
+.block-text {
+    width: 535px;
+    height: 200px;
+    padding-top: 180px;
+}
+
+.main-zag {
+    color: #D4C17F;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main-txt {
+    width: 535px;
+    height: 114px;
+    color: #fff;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 50px;
+}
+
+.block-buttons {
+    width: 540px;
+    height: 135px;
+    padding-top: 245px;
+    margin-left: 30px;
+    display: flex;
+}
+
+
+.pole1 {
+    text-align: center;
+    color: #bebebe;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 255px;
+    height: 50px;
+    border: solid rgba(255, 255, 255, 0);
+    outline: none;
+    transition: 0.3s;
+}
+
+.pole1:hover {
+    margin-left: -5px;
+    width: 270px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.pole2:hover {
+    margin-right: -5px;
+    width: 270px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+.pole2 {
+    text-align: center;
+    color: #bebebe;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 255px;
+    height: 50px;
+    margin-left: 30px;
+    border: solid rgba(255, 255, 255, 0);
+    outline: none;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: #bebebe;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn {
+    margin-left: 850px;
+    margin-top: -60px;
+    width: 255px;
+    height: 50px;
+    background:  #D4C17F;
+    text-align: center;
+    transition: 0.2s;
+    border: solid #d0b34b00;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #d0b34b;
+}
+
+.rayon {
+    line-height: 27px;
+    color: #fff;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 500;
+    font-size: 16px;   
+}
+
+.zametka {
+    width: 255px;
+    height: 28px;
+    color: #fff;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    margin-left: 565px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+/* VIDEO & MAP */
+
+.video {
+    width: 100%;
+    height: 1820px;
+}
+
+video{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+.maptext {
+    margin-top: 110px;
+    color: #D4C17F;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.karta {
+    border: solid 10px #d4c17f;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+    margin-top: -200px;
+    width: 100%;
+    height: 272px;
+    background: #2D343C;
+}
+
+.foot {
+    display: flex;
+}
+
+#logotwo {
+    padding-top: 60px;
+}
+
+.mail {
+    color: #D4C17F;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+#lol {
+    display: flex;
+    margin-top: 10px;
+}
+
+#nav-listtwo{
+    display: block;
+    margin-left: 166px;
+    margin-top: 72px;
+    line-height: 30px;
+}
+
+.newlist {
+    white-space: nowrap;
+    margin-right: -300px;
+    width: 239px;
+    height: 149px;
+    margin-top: 72px;
+    margin-left: 144px;
+}
+
+.newm {
+    line-height: 30px;
+}
+
+.social {
+    display: flex;
+    margin-top: 20px;
+}
+
+.youtube, .vk , .facebook , .instagram {
+    margin-right: 20px;
+}
+
+.prime {
+    color: #bebebe;
+    margin-top: 80px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Raleway' , sans-serif ;
+}
+
